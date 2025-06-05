@@ -1,0 +1,1407 @@
+<root>
+<document scada='0' schema='102' license='1,AUBINLASALLE49-V8,733UUG' title='' description='' fcversion='524802' target='PIC.18F.18F25K80' >
+	<config data='!0,f8bf!10,50ff!20,ffff!30,ffff!40,ffff!50,ffff!60,ffff%0,1%2,1%3,3%6,0%8,8%c,1%e,1%f,1%10,1%11,3%13,3%15,3%18,0%1a,14%28,1%2b,1%2f,1%30,1%34,1%37,1%40,1%41,1%42,1%43,1%4e,1%4f,1%50,1%51,1%52,1%53,1%5d,1%5e,1%5f,1%60,1%61,1%62,1%63,1%6e,1' clkspd='8000000' simspd='1' usewdt='0' constif='0' Use3V3='0' />
+	<plugins >
+		<dll_models enabled='1' />
+	</plugins>
+	<supplement use='0' head='' body='' />
+	<debug >
+		<watch expr='BPGO' />
+	</debug>
+	<traces />
+	<ghost >
+		<FK2 >
+			<data name='FK2D0' port='4294967295' pin='4294967295' />
+			<data name='FK2D1' port='4294967295' pin='4294967295' />
+			<data name='FK2D2' port='4294967295' pin='4294967295' />
+			<data name='FK2D3' port='4294967295' pin='4294967295' />
+			<data name='FK2D4' port='4294967295' pin='4294967295' />
+			<data name='FK2D5' port='4294967295' pin='4294967295' />
+			<data name='FK2D6' port='4294967295' pin='4294967295' />
+			<data name='FK2D7' port='4294967295' pin='4294967295' />
+			<data name='FK2D8' port='4294967295' pin='4294967295' />
+			<data name='FK2D9' port='4294967295' pin='4294967295' />
+			<data name='FK2D10' port='4294967295' pin='4294967295' />
+			<data name='FK2D11' port='4294967295' pin='4294967295' />
+			<data name='FK2D12' port='4294967295' pin='4294967295' />
+			<data name='FK2D13' port='4294967295' pin='4294967295' />
+			<data name='FK2D14' port='4294967295' pin='4294967295' />
+			<data name='FK2D15' port='4294967295' pin='4294967295' />
+			<data name='FK2A0' port='4294967295' pin='4294967295' />
+			<data name='FK2A1' port='4294967295' pin='4294967295' />
+			<data name='FK2A2' port='4294967295' pin='4294967295' />
+			<data name='FK2A3' port='4294967295' pin='4294967295' />
+			<data name='FK2A4' port='4294967295' pin='4294967295' />
+			<data name='FK2A5' port='4294967295' pin='4294967295' />
+		</FK2>
+		<ICD >
+			<data name='AnalogPrescaleValue' value='19' />
+			<data name='DigitalSampleRate' value='100000' />
+			<data name='BreakpointCount' value='8' />
+			<data name='CallStackDepthCount' value='8' />
+			<data name='ClockPort' value='1' />
+			<data name='ClockPin' value='6' />
+			<data name='DataPort' value='1' />
+			<data name='DataPin' value='7' />
+			<data name='UseDefaultPins' value='1' />
+			<data name='WrapEnabled' value='1' />
+			<data name='CommsDelayOverridden' value='0' />
+			<data name='CommsDelay' value='21' />
+			<data name='CalculatedCommsDelay' value='21' />
+			<data name='AnalogEB2PrescaleValue' value='2' />
+			<data name='DigitalEB2SampleRate' value='100000' />
+		</ICD>
+		<pins >
+			<digital A='0' B='0' C='0' D='0' E='0' F='0' G='0' H='0' I='0' J='0' K='0' L='0' M='0' N='0' O='0' P='0' Q='0' R='0' S='0' T='0' U='0' V='0' W='0' X='0' Y='0' Z='0' />
+			<analog A='0' B='0' C='0' D='0' E='0' F='0' G='0' H='0' I='0' J='0' K='0' L='0' M='0' N='0' O='0' P='0' Q='0' R='0' S='0' T='0' U='0' V='0' W='0' X='0' Y='0' Z='0' />
+		</pins>
+	</ghost>
+	<components >
+		<settings autoimg='1' center='1' unitscale='0' fixedscale='0' fixedx='1' fixedy='1' fixedz='1' headcode='0' />
+		<definition guid='44cd345c-4e2e-4467-a38d-8e6cad444188' vstate='40' vmin='0' vmaj='1' srcleaf='' visiblename='' description='' category='' catenable='1' author='' manuname='' manucode='' sysinfo='0' keywords='' dynamic='1' scadaCompatible='0' embeddedCompatible='1' iconpath='' />
+		<component class_type='root' codename='panel' x='0' y='0' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+			<resources />
+			<properties />
+			<values />
+			<events />
+			<apis />
+			<variables >
+				<variable public='0' >
+					<def class_type='variable' name='dig_P3_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P6_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P8' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Temp_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P7' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P6' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Press_XLSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P5' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Press_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_5' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P4' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P4_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P7_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='PRESS' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_4' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_1_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P3' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_3' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P2' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_2' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P1' type='u16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_1' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P5_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P8_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1_1_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_2_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='false' type='b1' description='' isconst='1' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T1_LSB' type='s32' description='' isconst='0' isinit='1' usrinit='136' setinit='0x88' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='PRESS_2' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Read' type='u8' description='' isconst='0' isinit='1' usrinit='237' setinit='0xED' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P6_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P9_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2' type='f32' description='' isconst='0' isinit='1' usrinit='0.0' setinit='0.00000000' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1_2_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_3_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='PRESS_1' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1' type='f32' description='' isconst='0' isinit='1' usrinit='0.0' setinit='0.000000000' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='BPGO' type='b1' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='TEMP' type='f32' description='' isconst='0' isinit='0' usrinit='0.0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T2_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P7_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1_3_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_4_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P1_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T3_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='UT' type='u32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P8_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var2_5_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P2_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='t_fine' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='oss' type='u8' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T1_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='UP' type='u32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P9_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='TEMP_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Write' type='u8' description='' isconst='0' isinit='1' usrinit='236' setinit='0xEC' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T3' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P3_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Temp_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T2' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T1' type='u16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T2_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='PRESS_STR' type='T8' description='' isconst='0' isinit='0' usrinit='&quot;&quot;' setinit='' >
+						<array size='20' />
+					</def>
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Press_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P1_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P4_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Temp_XLSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1_3' type='f32' description='' isconst='0' isinit='1' usrinit='0.0' setinit='0.0000000' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_T3_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1_2' type='f32' description='' isconst='0' isinit='1' usrinit='0.0' setinit='0.00000000' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='var1_1' type='f32' description='' isconst='0' isinit='1' usrinit='0.0' setinit='0.000000000' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P2_MSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P5_LSB' type='s32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='true' type='b1' description='' isconst='1' isinit='1' usrinit='1' setinit='1' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='dig_P9' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+			</variables>
+			<macros >
+				<macro >
+					<flowline name='BMP_dig_P4_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X94' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P4_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P4_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P4 = (dig_P4_LSB &lt;&lt; 8) | dig_P4_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P4 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P4 = dig_P4 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P4 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P4' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_T1_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X88' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_T1_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_T1_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_T1 = (dig_T1_LSB &lt;&lt; 8) | dig_T1_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_T1 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_T1 = dig_T1 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_T1 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_T1' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_Raw_Read' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Initialise' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='Adresse D&apos;Ecriture' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0xF4' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0x25' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Press_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Press_LSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Press_XLSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Temp_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Temp_LSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Temp_XLSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P7_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X9A' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P7_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P7_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P7 = (dig_P7_LSB &lt;&lt; 8) | dig_P7_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P7 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P7 = dig_P7 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P7 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P7' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P3_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X92' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P3_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P3_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P3 = (dig_P3_LSB &lt;&lt; 8) | dig_P3_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P3 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P3 = dig_P3 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P3 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P3' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_T3_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X8C' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_T3_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_T3_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_T3 = (dig_T3_LSB &lt;&lt; 8) | dig_T3_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_T3 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_T3 = dig_T3 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_T3 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_T3' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P6_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X98' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P6_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P6_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P6 = (dig_P6_LSB &lt;&lt; 8) | dig_P6_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P6 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P6 = dig_P6 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P6 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P6' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_Read_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_Raw_Read' />
+						<command class_type='comment' title='' comment='Calcul des valeurs brutes' textarea='12,0,12,0' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='UP = (Press_MSB &lt;&lt; 12)' />
+							<exp exp='UP = UP | (Temp_LSB &lt;&lt; 4)' />
+							<exp exp='UP = UP | (Press_XLSB &amp; 0x0F)' />
+							<exp exp='UT = (Temp_MSB &lt;&lt; 12)' />
+							<exp exp='UT = UT | (Temp_LSB &lt;&lt; 4)' />
+							<exp exp='UT = UT | (Temp_XLSB &amp; 0x0F)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='Initialise' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| MSB_UP : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='Press_MSB' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| LSB_UP : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='Press_LSB' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| XLSB_UP : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='Press_XLSB' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| MSB_UT : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='Temp_MSB' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| LSB_UT : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='Temp_LSB' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| XLSB_UT : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='Temp_XLSB' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| UP : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='UP' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| UT : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='UT' />
+						</command>
+						<command class_type='comment' title='' comment='Calcul de la Température' textarea='66,-336,66,-336' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_1 = UT / 16384.0' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_1_STR = FloatToString$ (var1_1)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var1_1_STR : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var1_1_STR' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_2_STR = FloatToString$ (var1_2)' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_2 = var1_1 - (dig_T1 / 1024.0)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var1_2_STR : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var1_2_STR' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1 = var1_2 * dig_T2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_STR = FloatToString$ (var1)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var1_STR : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var1_STR' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_1 = (UT / 131072.0)' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_1_STR = FloatToString$ (var2_1)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2_1_STR : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_1_STR' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_2 = var2_1 - (dig_T1 / 8192.0)' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_2_STR = FloatToString$ (var2_2)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2_2_STR : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_2_STR' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_5 = var2_2 * var2_2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_5_STR = FloatToString$ (var2_5)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2_5_STR : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_5_STR' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2 = var2_5 * dig_T3' />
+							<exp exp='' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_STR = FloatToString$ (var2)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2_STR : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_STR' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='t_fine = var1 + var2' />
+							<exp exp='TEMP = (var1 + var2) / 5120.0 + 44.4' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='TEMP_STR = FloatToString$ (TEMP)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| t_fine : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='t_fine' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| TEMP : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='TEMP_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Calcul de la pression' textarea='36,-341,36,-341' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_1 = t_fine / 2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1 = var1_1 - 64000.0' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_STR = FloatToString$ (var1)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var1 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var1_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='36,-246,36,-246' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_1 = var1 * var1' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_2 = 1 - 1.000213623' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2 = var2_1 * var2_2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_STR = FloatToString$ (var2)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='36,-330,36,-330' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2 = var2 + var1 * (dig_P5) * 2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_STR = FloatToString$ (var2)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='36,-343,36,-343' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_1 = (var2 / 4)' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_2 = (dig_P4 * 65536.0)' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_2_STR = FloatToString$ (var2_2)' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2 = var2_1 + var2_2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_STR = FloatToString$ (var2)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='36,-353,36,-353' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_1 = dig_P3 * var1 * var1' />
+							<exp exp='' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_2 = var1_1 / 524288' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_3 = dig_P2 * var1' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_3 = var1_3 + var1_2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1 = var1_3 / 524288.0' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_STR = FloatToString$ (var1)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var1 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var1_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='36,-291,36,-291' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_1 = var1 / 32768.0' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_2 = 1.0 + var1_1' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1 = var1_2 * dig_P1' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_STR = FloatToString$ (var1)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var1 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var1_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='43,-280,43,-280' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS = 1048576.0 - UP' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS_STR = FloatToString$ (PRESS)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| PRESS : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='PRESS_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='66,-247,66,-247' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS_1 = (var2 / 4096.0)' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS_2 = PRESS - PRESS_1' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS_1 = 6250.0 / var1' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS = PRESS_2 * PRESS_1' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS_STR = FloatToString$ (PRESS)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| PRESS : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='PRESS_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='120,-312,120,-312' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_1 = dig_P9 * PRESS' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_2 = PRESS / 2147483648.0' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1 = var1_1 * var1_2' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var1_STR = FloatToString$ (var1)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var1 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var1_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='62,-347,62,-347' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_1 = PRESS * dig_P8' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2 = var2_1 / 32768.0' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='var2_STR = FloatToString$ (var2)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| var2 : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='var2_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='53,-202,53,-202' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS = PRESS + (var1 + var2 + dig_P7) / 16' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS_STR = FloatToString$ (PRESS)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| PRESS : &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='PRESS_STR' />
+						</command>
+						<command class_type='comment' title='' comment='Comment' textarea='160,-334,160,-334' cmdcolor='10944511' cmdcolor_sec='11465458' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS = PRESS / 100' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='PRESS_STR = FloatToString$ (PRESS)' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| PRESS (hPa): &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='PRESS_STR' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P2_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X90' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P2_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P2_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P2 = (dig_P2_LSB &lt;&lt; 8) | dig_P2_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P2 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P2 = dig_P2 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P2 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P2' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_Setup' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P1_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P2_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P3_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P4_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P5_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P6_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P7_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P8_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_P9_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_T1_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_T2_Value' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_dig_T3_Value' />
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_T2_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X8A' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_T2_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_T2_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_T2 = (dig_T2_LSB &lt;&lt; 8) | dig_T2_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_T2 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_T2 = dig_T2 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_T2 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_T2' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P9_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X9E' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P9_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P9_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P9 = (dig_P9_LSB &lt;&lt; 8) | dig_P9_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P9 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P9 = dig_P9 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P9 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P9' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P5_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X96' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P5_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P5_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P5 = (dig_P5_LSB &lt;&lt; 8) | dig_P5_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P5 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P5 = dig_P5 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P5 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P5' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P1_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X8E' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P1_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P1_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P1 = (dig_P1_LSB &lt;&lt; 8) | dig_P1_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P1 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P1 = dig_P1 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P1 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P1' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='Main' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Initialise' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='Initialise' />
+						<command class_type='delay' title='Delay' cmdcolor='12632064' cmdcolor_sec='16769676' exp='1' type='2' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;test&quot;' />
+						</command>
+						<command class_type='loop' title='Loop' cmdcolor='12615680' cmdcolor_sec='15376912' type='0' exp='1' >
+							<flowline >
+								<command class_type='delay' title='Delay' cmdcolor='12632064' cmdcolor_sec='16769676' exp='5' type='2' />
+								<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_Setup' />
+								<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='BMP_Read_Value' />
+							</flowline>
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='BMP_dig_P8_Value' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Write' />
+						</command>
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0X9C' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='capteur écriture ' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='Read' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P8_MSB' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='dig_P8_LSB' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='dig_P8 = (dig_P8_LSB &lt;&lt; 8) | dig_P8_MSB' />
+						</command>
+						<command class_type='decision' title='Decision' cmdcolor='12615680' cmdcolor_sec='15376912' exp='dig_P8 &gt;= 32768' swap='0' >
+							<flowline >
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='dig_P8 = dig_P8 - 65536' />
+								</command>
+							</flowline>
+							<flowline />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+							<argument exp='&quot;| dig_P8 = &quot;' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+							<argument exp='dig_P8' />
+						</command>
+					</flowline>
+				</macro>
+			</macros>
+			<component class_type='ref' guid='24219805-113d-4b12-b6bd-e1b0b0c33981' vmin='4' vmaj='1' codename='I2C_Master1' x='0' y='0' z='0' xsz='64' ysz='32' zsz='2.125' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='cal_i2c::CHANNEL' data='001' />
+					<value target='cal_i2c::BAUD_LIST' data='001' />
+					<value target='cal_i2c::BAUD' data='100000' />
+					<value target='cal_i2c::StopDel' data='1' />
+					<value target='cal_i2c::SRC' data='000' />
+					<value target='cal_i2c::SMB' data='000' />
+					<value target='cal_i2c::ClockStretching' data='1' />
+					<value target='cal_i2c::SDA' data='$PORTC.4' />
+					<value target='cal_i2c::SDAPins' data='002' />
+					<value target='cal_i2c::SCL' data='$PORTC.3' />
+					<value target='cal_i2c::SCLPins' data='010' />
+					<value target='label' data='I2C Master' />
+					<value target='cal_i2c::ScopeTraces' data='0' />
+					<value target='cal_i2c::ConsoleData' data='' />
+					<value target='cal_i2c::Injector' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='dcbf571f-a6fa-402d-bdd4-be00cca4070f' vmin='1' vmaj='1' codename='eeprom1' x='0' y='40' z='10.8125' xsz='20' ysz='20' zsz='20' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='EESize' data='1024 byte' />
+					<value target='EEbitdepth' data='8 bit' />
+					<value target='InitialValues' data='0,1,0x2,0x03,&apos;A&apos;,&apos;b&apos;,&quot;Hello&quot;' />
+					<value target='InitValsParsed' data='0,1,0x2,0x03,&apos;A&apos;,&apos;b&apos;,&apos;H&apos;,&apos;e&apos;,&apos;l&apos;,&apos;l&apos;,&apos;o&apos;' />
+					<value target='ResetValues' data='0' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='c73616d1-7ad0-45d9-aada-69ccfa4c5efc' vmin='0' vmaj='2' codename='UART1' x='0' y='-40' z='4.56249' xsz='66' ysz='34' zsz='7.5' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='cal_uart::CHANNEL' data='002' />
+					<value target='cal_uart::BAUD_LIST' data='004' />
+					<value target='cal_uart::BAUD' data='9600' />
+					<value target='cal_uart::DBITS' data='008' />
+					<value target='cal_uart::RETURN' data='000' />
+					<value target='cal_uart::ECHO' data='000' />
+					<value target='cal_uart::UseTX' data='1' />
+					<value target='cal_uart::TX' data='$PORTB.6' />
+					<value target='cal_uart::OutputPins' data='007' />
+					<value target='cal_uart::TXAlt' data='0' />
+					<value target='cal_uart::UseRX' data='1' />
+					<value target='cal_uart::RX' data='$PORTB.7' />
+					<value target='cal_uart::InputPins' data='013' />
+					<value target='cal_uart::RXAlt' data='0' />
+					<value target='cal_uart::FLOWEN' data='001' />
+					<value target='cal_uart::RTS' data='$PORTB.2' />
+					<value target='cal_uart::CTS' data='$PORTB.1' />
+					<value target='label' data='UART' />
+					<value target='cal_uart::ScopeTraces' data='0' />
+					<value target='cal_uart::ConsoleData' data='0' />
+					<value target='cal_uart::ConsoleFormat' data='000' />
+					<value target='cal_uart::ConsoleColumns' data='64' />
+					<value target='cal_uart::DataSource' data='000' />
+					<value target='cal_uart::com_port' data='000' />
+					<value target='cal_uart::Injector' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='26732594-ad79-472f-80ff-95d365b3b252' vmin='2' vmaj='1' codename='sw_push_pcb1' x='0' y='-70' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='pin' data='$PORTB.0' />
+					<value target='polarity' data='000' />
+					<value target='debounce' data='10' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+		</component>
+	</components>
+	<scadaresourcelookup />
+	<keymap />
+	<panel2d shadows='0' lighting='2' brightness='0' >
+		<background rgb='7292207' img='' style='0' />
+		<camera xe='0' ye='0' ze='300' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+	</panel2d>
+	<panel3d shadows='0' lighting='2' brightness='0' perspective='1' >
+		<background rgb='8409120' img='' style='0' />
+		<table rgb='7360576' img='' style='0' size='0' />
+		<camera xe='-1.06143' ye='-12.907' ze='134.338' xt='-1.06143' yt='-12.907' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+		<camerakey0 xe='0' ye='0' ze='300' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+		<camerakey1 xe='-3.67394e-14' ye='0' ze='-300' xt='0' yt='0' zt='0' xquat='0' yquat='1' zquat='0' wquat='6.12323e-17' />
+		<camerakey2 xe='0' ye='-300' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.707107' yquat='0' zquat='0' wquat='0.707107' />
+		<camerakey3 xe='-3.67394e-14' ye='300' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-4.32978e-17' yquat='0.707107' zquat='0.707107' wquat='4.32978e-17' />
+		<camerakey4 xe='-300' ye='-6.66134e-14' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.5' yquat='0.5' zquat='0.5' wquat='0.5' />
+		<camerakey5 xe='300' ye='-6.66134e-14' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.5' yquat='-0.5' zquat='-0.5' wquat='0.5' />
+		<camerakey6 xe='-173.205' ye='-173.205' ze='173.205' xt='0' yt='0' zt='0' xquat='-0.424708' yquat='0.17592' zquat='0.339851' wquat='0.820473' />
+	</panel3d>
+	<layout >
+		<view type='0' name='BMP_Read_Value' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAgQIAADgCAAA' zoom='80' scrollx='0' scrolly='3399' flags='0' />
+		<view type='0' name='Main' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAgQIAADgCAAA' zoom='75' scrollx='0' scrolly='0' flags='0' />
+		<view type='0' name='BMP_Raw_Read' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAgQIAADgCAAA' zoom='75' scrollx='0' scrolly='0' flags='0' />
+		<view type='0' name='BMP_Setup' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAAgQIAADgCAAA' zoom='75' scrollx='0' scrolly='0' flags='0' />
+	</layout>
+</document>
+</root>

@@ -1,0 +1,340 @@
+<root>
+<document scada='0' schema='102' license='1,AUBINLASALLE49-V8,733UUG' title='' description='' fcversion='524802' target='PIC.18F.18F25K80' >
+	<config data='!0,f8bf!10,50ff!20,ffff!30,ffff!40,ffff!50,ffff!60,ffff%0,1%2,1%3,3%6,0%8,8%c,1%e,1%f,1%10,1%11,3%13,3%15,3%18,0%1a,14%28,1%2b,1%2f,1%30,1%34,1%37,1%40,1%41,1%42,1%43,1%4e,1%4f,1%50,1%51,1%52,1%53,1%5d,1%5e,1%5f,1%60,1%61,1%62,1%63,1%6e,1' clkspd='8000000' simspd='1' usewdt='0' constif='0' Use3V3='0' />
+	<plugins >
+		<dll_models enabled='1' />
+	</plugins>
+	<supplement use='0' head='' body='' />
+	<debug >
+		<watch expr='Servo.Cycle' />
+		<watch expr='Servo.nbr_loop' />
+		<watch expr='Servo.Value' />
+	</debug>
+	<traces />
+	<ghost >
+		<FK2 >
+			<data name='FK2D0' port='4294967295' pin='4294967295' />
+			<data name='FK2D1' port='4294967295' pin='4294967295' />
+			<data name='FK2D2' port='4294967295' pin='4294967295' />
+			<data name='FK2D3' port='4294967295' pin='4294967295' />
+			<data name='FK2D4' port='4294967295' pin='4294967295' />
+			<data name='FK2D5' port='4294967295' pin='4294967295' />
+			<data name='FK2D6' port='4294967295' pin='4294967295' />
+			<data name='FK2D7' port='4294967295' pin='4294967295' />
+			<data name='FK2D8' port='4294967295' pin='4294967295' />
+			<data name='FK2D9' port='4294967295' pin='4294967295' />
+			<data name='FK2D10' port='4294967295' pin='4294967295' />
+			<data name='FK2D11' port='4294967295' pin='4294967295' />
+			<data name='FK2D12' port='4294967295' pin='4294967295' />
+			<data name='FK2D13' port='4294967295' pin='4294967295' />
+			<data name='FK2D14' port='4294967295' pin='4294967295' />
+			<data name='FK2D15' port='4294967295' pin='4294967295' />
+			<data name='FK2A0' port='4294967295' pin='4294967295' />
+			<data name='FK2A1' port='4294967295' pin='4294967295' />
+			<data name='FK2A2' port='4294967295' pin='4294967295' />
+			<data name='FK2A3' port='4294967295' pin='4294967295' />
+			<data name='FK2A4' port='4294967295' pin='4294967295' />
+			<data name='FK2A5' port='4294967295' pin='4294967295' />
+		</FK2>
+		<ICD >
+			<data name='AnalogPrescaleValue' value='19' />
+			<data name='DigitalSampleRate' value='100000' />
+			<data name='BreakpointCount' value='8' />
+			<data name='CallStackDepthCount' value='8' />
+			<data name='ClockPort' value='1' />
+			<data name='ClockPin' value='6' />
+			<data name='DataPort' value='1' />
+			<data name='DataPin' value='7' />
+			<data name='UseDefaultPins' value='1' />
+			<data name='WrapEnabled' value='1' />
+			<data name='CommsDelayOverridden' value='0' />
+			<data name='CommsDelay' value='21' />
+			<data name='CalculatedCommsDelay' value='21' />
+			<data name='AnalogEB2PrescaleValue' value='2' />
+			<data name='DigitalEB2SampleRate' value='100000' />
+		</ICD>
+		<pins >
+			<digital A='0' B='0' C='0' D='0' E='0' F='0' G='0' H='0' I='0' J='0' K='0' L='0' M='0' N='0' O='0' P='0' Q='0' R='0' S='0' T='0' U='0' V='0' W='0' X='0' Y='0' Z='0' />
+			<analog A='0' B='0' C='0' D='0' E='0' F='0' G='0' H='0' I='0' J='0' K='0' L='0' M='0' N='0' O='0' P='0' Q='0' R='0' S='0' T='0' U='0' V='0' W='0' X='0' Y='0' Z='0' />
+		</pins>
+	</ghost>
+	<components >
+		<settings autoimg='1' center='1' unitscale='0' fixedscale='0' fixedx='1' fixedy='1' fixedz='1' headcode='0' />
+		<definition guid='44cd345c-4e2e-4467-a38d-8e6cad444188' vstate='40' vmin='0' vmaj='1' srcleaf='' visiblename='' description='' category='' catenable='1' author='' manuname='' manucode='' sysinfo='0' keywords='' dynamic='1' scadaCompatible='0' embeddedCompatible='1' iconpath='' />
+		<component class_type='root' codename='panel' x='0' y='0' z='0' xsz='1' ysz='1' zsz='1' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+			<resources />
+			<properties />
+			<values />
+			<events />
+			<apis />
+			<variables >
+				<variable public='0' >
+					<def class_type='variable' name='Z_high' type='u8' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='X_high' type='u8' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='false' type='b1' description='' isconst='1' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='X_low' type='u8' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Z' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='ADXL_W' type='s16' description='' isconst='1' isinit='1' usrinit='166' setinit='0xA6' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Y' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='X' type='s16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Y_low' type='u8' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Y_high' type='u8' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='ADXL_R' type='s16' description='' isconst='1' isinit='1' usrinit='167' setinit='0xA7' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Z_low' type='u8' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='Acceleration' type='s16' description='' isconst='0' isinit='1' usrinit='0' setinit='0' />
+				</variable>
+				<variable public='0' >
+					<def class_type='variable' name='true' type='b1' description='' isconst='1' isinit='1' usrinit='1' setinit='1' />
+				</variable>
+			</variables>
+			<macros >
+				<macro >
+					<flowline name='ADXL_Wakeup' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='ADXL_W' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0x2D' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0x08' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='Servo' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<param name='Cycle' type='u16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+						<param name='Value' type='u32' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+						<local name='nbr_loop' type='u16' description='' isconst='0' isinit='0' usrinit='0' setinit='' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='.nbr_loop = 0' />
+						</command>
+						<command class_type='loop' title='Loop' cmdcolor='12615680' cmdcolor_sec='15376912' type='1' exp='.Cycle &lt; .nbr_loop' >
+							<flowline >
+								<command class_type='output' title='Output' cmdcolor='16762795' cmdcolor_sec='13879979' mode='1' port='1048578' mask='4' exp='1' />
+								<command class_type='delay' title='Delay' cmdcolor='12632064' cmdcolor_sec='16769676' exp='.Value' type='0' />
+								<command class_type='output' title='Output' cmdcolor='16762795' cmdcolor_sec='13879979' mode='1' port='1048578' mask='4' exp='0' />
+								<command class_type='delay' title='Delay' cmdcolor='12632064' cmdcolor_sec='16769676' exp='20000 - .Value' type='0' />
+								<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+									<exp exp='.nbr_loop = 1 + .nbr_loop' />
+								</command>
+							</flowline>
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='ADXL_read_data' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='ADXL_Wakeup' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='ADXL_W' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0x32' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Restart' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='ADXL_R' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='X_low' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='X_high' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Y_low' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Y_high' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Z_low' />
+							<argument exp='0' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='ReceiveByte' >
+							<return exp='Z_high' />
+							<argument exp='1' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='X = X_high * 256 + X_low' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='Y = Y_high * 256 + Y_low' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='Z = Z_high * 256 + Z_low' />
+						</command>
+						<command class_type='calculation' title='Calculation' cmdcolor='16760919' cmdcolor_sec='16760832' >
+							<exp exp='Acceleration = sqrt (pow (X,2) + pow (Y,2) + pow (Z,2))' />
+						</command>
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='ADXL_Configure' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='ADXL_Wakeup' />
+						<command class_type='delay' title='Delay' cmdcolor='12632064' cmdcolor_sec='16769676' exp='10' type='1' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Start' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='ADXL_W' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0x31' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='TransmitByte' >
+							<argument exp='0x02' />
+						</command>
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Stop' />
+					</flowline>
+				</macro>
+				<macro >
+					<flowline name='Main' description='' >
+						<return name='Return' type='v0' description='' isconst='0' isinit='0' usrinit='' setinit='' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='Initialise' />
+						<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='I2C_Master1' macro='Initialise' />
+						<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='Servo' >
+							<argument exp='50' />
+							<argument exp='2000' />
+						</command>
+						<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='ADXL_Configure' />
+						<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='ADXL_read_data' />
+						<command class_type='loop' title='Loop' cmdcolor='12615680' cmdcolor_sec='15376912' type='0' exp='1' >
+							<flowline >
+								<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='ADXL_read_data' />
+								<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendNumber' >
+									<argument exp='Acceleration' />
+								</command>
+								<command class_type='call' title='Call Component Macro' cmdcolor='1879295' cmdcolor_sec='5751039' component='UART1' macro='SendString' >
+									<argument exp='&quot;\n&quot;' />
+								</command>
+							</flowline>
+						</command>
+						<command class_type='call' title='Call Macro' cmdcolor='1879295' cmdcolor_sec='5751039' macro='Servo' >
+							<argument exp='26' />
+							<argument exp='1200' />
+						</command>
+					</flowline>
+				</macro>
+			</macros>
+			<component class_type='ref' guid='24219805-113d-4b12-b6bd-e1b0b0c33981' vmin='4' vmaj='1' codename='I2C_Master1' x='0' y='0' z='0' xsz='64' ysz='32' zsz='2.125' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='cal_i2c::CHANNEL' data='001' />
+					<value target='cal_i2c::BAUD_LIST' data='001' />
+					<value target='cal_i2c::BAUD' data='100000' />
+					<value target='cal_i2c::StopDel' data='1' />
+					<value target='cal_i2c::SRC' data='000' />
+					<value target='cal_i2c::SMB' data='000' />
+					<value target='cal_i2c::ClockStretching' data='1' />
+					<value target='cal_i2c::SDA' data='$PORTC.4' />
+					<value target='cal_i2c::SDAPins' data='002' />
+					<value target='cal_i2c::SCL' data='$PORTC.3' />
+					<value target='cal_i2c::SCLPins' data='010' />
+					<value target='label' data='I2C Master' />
+					<value target='cal_i2c::ScopeTraces' data='0' />
+					<value target='cal_i2c::ConsoleData' data='' />
+					<value target='cal_i2c::Injector' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+			<component class_type='ref' guid='c73616d1-7ad0-45d9-aada-69ccfa4c5efc' vmin='0' vmaj='2' codename='UART1' x='0' y='-50' z='1.8275' xsz='64' ysz='32' zsz='1.53' xang='0' yang='0' zang='0' xquat='0' yquat='0' zquat='0' wquat='1' visible='1' scadavisible='1' interactive='1' solid='1' layer='0' poslock='0' >
+				<resources />
+				<properties />
+				<values >
+					<value target='cal_uart::CHANNEL' data='002' />
+					<value target='cal_uart::BAUD_LIST' data='004' />
+					<value target='cal_uart::BAUD' data='9600' />
+					<value target='cal_uart::DBITS' data='008' />
+					<value target='cal_uart::RETURN' data='000' />
+					<value target='cal_uart::ECHO' data='000' />
+					<value target='cal_uart::UseTX' data='1' />
+					<value target='cal_uart::TX' data='$PORTB.6' />
+					<value target='cal_uart::OutputPins' data='007' />
+					<value target='cal_uart::TXAlt' data='0' />
+					<value target='cal_uart::UseRX' data='1' />
+					<value target='cal_uart::RX' data='$PORTB.7' />
+					<value target='cal_uart::InputPins' data='013' />
+					<value target='cal_uart::RXAlt' data='0' />
+					<value target='cal_uart::FLOWEN' data='000' />
+					<value target='cal_uart::RTS' data='$PORTB.2' />
+					<value target='cal_uart::CTS' data='$PORTB.1' />
+					<value target='label' data='UART' />
+					<value target='cal_uart::ScopeTraces' data='0' />
+					<value target='cal_uart::ConsoleData' data='0' />
+					<value target='cal_uart::ConsoleFormat' data='000' />
+					<value target='cal_uart::ConsoleColumns' data='64' />
+					<value target='cal_uart::DataSource' data='000' />
+					<value target='cal_uart::com_port' data='000' />
+					<value target='cal_uart::Injector' data='000' />
+				</values>
+				<events />
+				<apis />
+				<variables />
+				<macros />
+			</component>
+		</component>
+	</components>
+	<scadaresourcelookup />
+	<keymap />
+	<panel2d shadows='0' lighting='2' brightness='0' >
+		<background rgb='7292207' img='' style='0' />
+		<camera xe='0' ye='0' ze='300' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+	</panel2d>
+	<panel3d shadows='0' lighting='2' brightness='0' perspective='1' >
+		<background rgb='8409120' img='' style='0' />
+		<table rgb='7360576' img='' style='0' size='0' />
+		<camera xe='-2.0114' ye='-30.8975' ze='96.8094' xt='-2.0114' yt='-30.8975' zt='-5.6605e-25' xquat='0' yquat='0' zquat='0' wquat='1' />
+		<camerakey0 xe='0' ye='0' ze='300' xt='0' yt='0' zt='0' xquat='0' yquat='0' zquat='0' wquat='1' />
+		<camerakey1 xe='-3.67394e-14' ye='0' ze='-300' xt='0' yt='0' zt='0' xquat='0' yquat='1' zquat='0' wquat='6.12323e-17' />
+		<camerakey2 xe='0' ye='-300' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.707107' yquat='0' zquat='0' wquat='0.707107' />
+		<camerakey3 xe='-3.67394e-14' ye='300' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-4.32978e-17' yquat='0.707107' zquat='0.707107' wquat='4.32978e-17' />
+		<camerakey4 xe='-300' ye='-6.66134e-14' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.5' yquat='0.5' zquat='0.5' wquat='0.5' />
+		<camerakey5 xe='300' ye='-6.66134e-14' ze='6.66134e-14' xt='0' yt='0' zt='0' xquat='-0.5' yquat='-0.5' zquat='-0.5' wquat='0.5' />
+		<camerakey6 xe='-173.205' ye='-173.205' ze='173.205' xt='0' yt='0' zt='0' xquat='-0.424708' yquat='0.17592' zquat='0.339851' wquat='0.820473' />
+	</panel3d>
+	<layout >
+		<view type='0' name='Main' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAA7AMAAHACAAA' zoom='75' scrollx='0' scrolly='293' flags='0' />
+		<view type='0' name='ADXL_read_data' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAA7AMAAHACAAA' zoom='75' scrollx='0' scrolly='258' flags='0' />
+		<view type='0' name='ADXL_Configure' mode='0' placement='LAAAAAAAAAABAAAA---------------------wUAAAAYAAAA7AMAAHACAAA' zoom='75' scrollx='0' scrolly='15' flags='0' />
+	</layout>
+</document>
+</root>
