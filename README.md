@@ -1,5 +1,3 @@
-**# AeroAlert
-Projet terminal
 **# 🌤️ AeroAlert
 
 **AeroAlert** is a lightweight, reusable, and cost-effective meteorological probe system designed to study **meteorological epiphenomena** using miniaturized sensors deployed via rockets. Our goal is to improve understanding and forecasting of high-risk weather events by collecting simultaneous atmospheric data across multiple points within a small geographical area.
